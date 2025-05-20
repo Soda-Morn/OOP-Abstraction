@@ -2,7 +2,7 @@ import { UserLogin } from "./UserLogin";
 
 export class Customer extends UserLogin {
   login(): void {
-    console.log(`✅ customer ${this.firstname + this.lastname} logged in.`);
+    console.log(`✅ customer ${this.firstname + this.lastname + } logged in.`);
   }
 
   register(): void {
