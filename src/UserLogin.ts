@@ -13,6 +13,8 @@ export abstract class UserLogin {
         this.phonNumbeer = phoneNumber
     }
 
-    abstract Login(): void;
-    abstract Register(): void
+    abstract login(): void;
+    abstract register(): void
 }
+
+

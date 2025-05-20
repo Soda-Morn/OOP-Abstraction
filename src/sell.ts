@@ -1,11 +1,11 @@
 import { UserLogin } from "./UserLogin";
 
 class SellerLogin extends UserLogin {
-    Login(): void {
+    login(): void {
         console.log(`✅ Seller '${this.firstname} ${this.lastname}' logged in. Access to product and sales management.`);
     }
 
-    Register(): void {
+    register(): void {
         console.log(`📝 Seller '${this.firstname} ${this.lastname}' registered successfully.`);
     }
 }
