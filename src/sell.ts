@@ -1,6 +1,6 @@
 import { UserLogin } from "./UserLogin";
 
-class SellerLogin extends UserLogin {
+export class Sell extends UserLogin {
     login(): void {
         console.log(`✅ Seller '${this.firstname} ${this.lastname}' logged in. Access to product and sales management.`);
     }
