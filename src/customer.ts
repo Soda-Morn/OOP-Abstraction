@@ -4,7 +4,7 @@ import { Order } from "./Order";
 export class Customer extends UserLogin {
   private orders: Order[] = [];
   login(): void {
-    console.log(`✅ customer ${this.firstname + this.lastname} logged in.`);
+    console.log(`✅ customer ${this.firstname + this.lastname + } logged in.`);
   }
 
   register(): void {
